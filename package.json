@@ -1,0 +1,48 @@
+{
+  "name": "gulp-website",
+  "version": "1.0.0",
+  "description": "A basic website using glupjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Barrett",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "gulp-open": "^3.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "static-server": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://simonb77@bitbucket.org/simonb77/gulp-website.git"
+  },
+  "homepage": "https://bitbucket.org/simonb77/gulp-website#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-color": "0.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-less": "^4.0.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-wrap": "^0.14.0",
+    "gulp-zip": "^4.2.0",
+    "handlebars": "^4.5.2",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "less-plugin-autoprefix": "^2.0.0"
+  }
+}
